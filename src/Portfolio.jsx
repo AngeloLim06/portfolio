@@ -14,12 +14,10 @@ import {
   FaLaptop,
 } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
-import { Link } from "react-router-dom";
 import julio from "./assets/IT_LIM_D_IMG_4430.jpg";
 import ncii from "./assets/ncii.png";
 import { SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
 import resume from "./assets/JARL CV.pdf";
-import react from "./assets/logo192.png";
 import Typewriter from "typewriter-effect";
 import { FaFile } from "react-icons/fa";
 const Portfolio = () => {
@@ -71,7 +69,7 @@ const Portfolio = () => {
                 '&nbsp;&nbsp;<span class="md:ml-28 ">location: <strong class="text-[#45FFCA]">"Calamba City, Laguna",</strong></span><br>'
               )
               .typeString(
-                '&nbsp;&nbsp;<span class="md:ml-28">occupation: <strong class="text-[#45FFCA]">"Student"</strong> </span><br>'
+                '&nbsp;&nbsp;<span class="md:ml-28">occupation: <strong class="text-[#45FFCA]">"Freelance"</strong> </span><br>'
               )
               .typeString("};")
               .start();
@@ -79,7 +77,7 @@ const Portfolio = () => {
           options={{
             autoStart: true,
             loop: false,
-            delay: 75,
+            delay: 25,
           }}
         />
       </section>

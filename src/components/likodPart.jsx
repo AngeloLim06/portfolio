@@ -74,7 +74,7 @@ const likodPart = () => {
             default: "bounce",
           },
           random: false,
-          speed: 6,
+          speed: 2,
           straight: false,
         },
         number: {
