@@ -1,2 +1,15 @@
+@font-face{
+    font-family: Karla;
+    src: url("./assets/fonts/Karla.ttf");
+}
+@font-face{
+    font-family: Fig;
+    src: url("./assets/fonts/Fig.ttf")
+}
 
 @import "tailwindcss";
+
+@theme{
+    --font-karla: Karla, "sans-serif";
+    --font-fig: Fig, "sans-serif"
+}
